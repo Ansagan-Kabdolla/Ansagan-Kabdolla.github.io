@@ -1,1 +1,0 @@
-# Ansagan-Kabdolla.github.io
