@@ -125,7 +125,7 @@
 // 	      }
 // 	  });
 // });
-
+ $(".btn").click();
 $(document).on('click', '.btn', function(){
 	$( ".pred" ).toggle({duration: 400,easing: "linear",start:function(){$(".content").toggleClass("fixed");}
 })});
@@ -157,7 +157,7 @@ $(document).on('click', '.togg', function(){
           $('.predmeti').addClass('fixed');
           $('.btn').css({"position":"fixed"});
           $('.scrollup').fadeIn();
-	      $(".btn").click();
+	     
       } else {
           $('.flex_parents').removeClass('fixed');
           $('.predmeti').removeClass('fixed');
